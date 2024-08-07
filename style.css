@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+--cor-principal:#C7FFED;
+--cor-secundaria:#0B2B40; 
+--cor-tercearia: #E9ECF8;
+--cor-hover: #D8FFDB;
+}
+
+*{
+     background:var(--cor-tercearia);
+     font-family: "Inter", "sans serif";
+     font-weight: 400;
+     font-size: 32px;
+     line-height: 48px;
+}
+
+.logo-alura{
+     margin-left: 100px;
+     padding-top: 10px;
+     width: 5%;
+     color: var(--cor-secundaria);
+}
+
+main{
+     display: flex;
+     margin-bottom: 60px;
+     margin-left: 200px;
+     gap: 150px;
+
+}
+.lado1{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 80px;
+}
+.texto-area{
+     border: none;
+     color: var(--cor-secundaria);
+     padding-top: 99px;
+     text-transform: lowercase;
+     font-size: 30px;
+}
+
+::placeholder { color: var(--cor-secundaria);  }
+     .texto-area:focus{
+          outline: none;
+     }
+
+.botoes {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 15px;
+     margin-top: 99px;
+
+}
+
+.btn-encriptar {
+     background-color: var(--cor-secundaria);
+     color: white;
+}
+
+
+.btn-encriptar {
+     border: 1px solid var(--cor-secundaria);
+     background-color: var(--cor-secundaria);
+     border-radius: 24px;
+     color: var(--cor-principal);
+     font-size: 24px;
+     cursor: pointer;
+     height: 67px;
+     width: 328px;
+     transition: 0.3 ease-in-out;
+}
+
+.btn-encriptar:hover{
+     background-color: var(--cor-hover);
+     color: var(--cor-secundaria);
+     transform: scale(1)translateY(-5px);
+     box-shadow: 0 0 25px var(--cor-secundaria);
+    
+}
+
+.btn-descriptar{
+     background-color: var(--cor-tercearia);
+     border: 1px solid var(--cor-secundaria);
+     border-radius: 24px;
+     font-size: 25px;
+     color: var(--cor-secundaria);
+     cursor: pointer;
+     height: 67px;
+     margin-left: 10px;
+     width: 328px;
+     transition: 0.3 ease-in-out;
+}
+.btn-descriptar:hover{
+     background-color: var(--cor-hover);
+     color: var(--cor-secundaria);
+     transform: scale(1)translateY(-5px);
+     box-shadow: 0 0 25px var(--cor-secundaria);
+     
+}
+
+
+
+.criptar{
+     background: #E9ECF8;
+     border-radius: 24px;
+     border: 1px solid #D8DFE8;
+     box-shadow: #495057;
+     color: #0A3871;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 30px;
+     max-height: 70%;
+     padding-top: 100px;
+     position: fixed;
+}
+
+.mensagem{
+     font-size: 30px;
+     border: none;
+
+}
+.mensagem:focus{
+     outline: none;
+}
+
+.mensagem-img {
+     color: var(--cor-secundaria);
+     padding-top: 100%;
+     width: 85%;
+     margin-left: 25px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 20px;
+}
+
+.mensagem {
+     border-radius: 20px;
+     background: #E9ECF8;
+     color: #0A3871;
+     margin-left: 20px;
+     padding-top: 10px;
+     position: relative;
+}
+
+.mensagem-texto p {
+     font-size: 20px;
+}
+
+
+
+.mensagem-btn{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+
+.copiar{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     position: fixed;
+     padding-top: 500px ;
+}
+
+
+.btn-copiar{
+     border: 1px solid #0A3871;
+     border-radius: 24px;
+     color: #0A3871;
+     font-size: 25px;
+     cursor: pointer;
+     height: 60px;
+     margin-left: 10px;
+     margin-top: -50px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     width: 336px;
+     gap: 10px;
+     position: fixed;
+     transition: 0.3 ease-in-out;
+}
+.btn-copiar:hover{
+     color: #072B61;
+     transform: scale(1)translateY(-5px);
+     box-shadow: 0 0 25px #072B61;
+     background-color: #D8DFE8;
+}
+.informacao {
+     color: #495057;
+     font-size: 15px;
+}
+

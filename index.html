@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css">
+      <title>Encriptador</title>
+</head>
+
+<body>
+      <header>
+            <img class="logo-alura" src="assents/logo.png" alt="Logo da Alura">
+      </header>
+
+      <main>
+            <section>
+                  <div class="lado1">
+                        <textarea class="texto-area" cols="41" rows="4" placeholder="Digite o seu texto"></textarea>
+
+                        <div class="botoes">
+                              <img id="informacao" src="assents/informacao.png">
+                              <button type="button" class="btn-encriptar" onclick="btnEncriptar()">Criptografar</button>
+                              <button type="button" class="btn-descriptar" onclick="btnDesencriptar()">Descriptografar</button>
+                        </div>
+                  </div>
+            </section>
+
+            <section>
+                  <div id="criptar" class="criptar">
+                        <div id="msg-img" class="mensagem-img">
+                              <img id="img" src="assents/boneco.png">
+                        </div>
+                        <div class="mensagem-texto">
+                              <p id="texto-area"> Nenhuma mensagem encontrada.</p>
+                              <textarea id="mensagem" class="mensagem" cols="20" rows="10" placeholder=""></textarea>
+                        </div>
+
+                        <div id="btn" class="copiar">
+                              <button type="button" class="btn-copiar">Copiar </button>
+                        </div>
+                  </div>
+
+            </section>
+
+      </main>
+      <script src="script.js"></script>
+</body>
+
+</html>
